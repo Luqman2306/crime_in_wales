@@ -1,0 +1,26 @@
+# ---------------------------
+# WALES CRIME ANALYSIS PROJECT
+# ---------------------------
+
+# Ignore large raw data folders
+/Police forces/
+*.csv
+*.xlsx
+*.xls
+
+# Ignore temporary, cache, or environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.log
+
+# Ignore local system and config files
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
+.env
+
+# Ignore intermediate data processing outputs
+cleaned_wales_crime.csv
